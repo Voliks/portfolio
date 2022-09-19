@@ -1,0 +1,151 @@
+/*Adding box sizing to the whole html*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Adding color and size to background throughout the website*/
+body {
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    display: block;
+    min-height: 100vh;
+    background: rgb(34, 33, 33);
+    font-family:sans-serif;  
+}
+/*Nav fixed to left top position,no opacity*/
+.menu {
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 20px 30px;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9; 
+}
+
+.menu a {
+    color:rgb(223, 223, 215) ;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.3;
+}
+/*Some styling to the menu buttons*/
+.menu a:hover, .menu a:active {
+    opacity: 0.6;
+}
+/*position of home */
+.home {
+    width: 100%;
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    
+}
+.header {
+    color: rgb(216, 212, 212);
+    font-size: 120px;
+    font-weight: 300;
+}
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+/*Footer with all the buttons*/
+.foot {
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 10px 30px;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9; 
+}
+
+#contact {
+    color:rgb(253, 253, 253);
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.5;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    position: relative;  
+}
+#contact a:hover {
+opacity: 0.6;
+}
+
+#mail, #linked, #cv {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px; 
+}
+
+.foot span {
+    position: relative;
+    bottom: 10px;
+}
+
+/*Here starts ABOUT ME section*/
+
+.aboutme {
+    width: 100%;
+    height: 100vh;
+    padding: 150px 100px;
+    position: fixed;
+    top: 0;
+}
+
+#forest {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.aboutme {
+    padding-left: 55%;
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: left;
+}
+
+/*UNDER CONSTRUCTION*/
+#constr-img {
+position: relative;
+top: 150px;
+padding-left: 37%;
+
+}
+
+#constr {
+    position: relative;
+    top: 150px;
+    color: rgb(161, 160, 160);
+    text-align: center;
+    font-weight: 600;
+}
