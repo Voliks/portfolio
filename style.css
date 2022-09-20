@@ -113,8 +113,11 @@ opacity: 0.6;
     padding: 150px 100px;
     position: fixed;
     top: 0;
+   
+}
+.aboutme-text {
     padding-left: 55%;
-    padding-right: 150px;
+    
     color: rgb(161, 160, 160);
     font-weight: 600;
     line-height: 25px;
