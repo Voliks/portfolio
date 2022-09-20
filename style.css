@@ -113,6 +113,13 @@ opacity: 0.6;
     padding: 150px 100px;
     position: fixed;
     top: 0;
+    padding-left: 55%;
+    padding-right: 100px;
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: left;
 }
 
 #forest {
@@ -123,15 +130,6 @@ opacity: 0.6;
     width: 50%;
     object-fit: cover;
     opacity: 0.3;
-}
-
-.aboutme {
-    padding-left: 55%;
-    color: rgb(161, 160, 160);
-    font-weight: 600;
-    line-height: 25px;
-    overflow: hidden;
-    text-align: left;
 }
 
 /*UNDER CONSTRUCTION*/
